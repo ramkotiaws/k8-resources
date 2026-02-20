@@ -32,7 +32,7 @@ metadata:
   name: nginx
 spec:
   nodeSelector: 
-    topology.kubernetes.io/region: us-east-1
+    topology.kubernetes.io/region: us-east-1a
   containers:
   - name: nginx
     image: nginx
